@@ -20,24 +20,31 @@ layout: center
 ---
 
 <div class="text-center">
-  <h2 class="text-4xl font-semibold tracking-wide mb-16">目录</h2>
-
-  <div class="flex justify-center gap-8">
-    <div class="group flex flex-col items-center px-10 py-8 border border-gray-200 rounded-lg hover:border-gray-400 transition-all">
-      <span class="text-5xl font-bold text-gray-400 mb-3">01</span>
-      <span class="text-xl text-gray-700 font-bold">业绩回顾</span>
+  <h2 class="text-4xl font-light tracking-wider text-gray-600 mb-10">目录</h2>
+  <div class="grid grid-cols-4 gap-10 max-w-4xl mx-auto">
+    <div class="group flex flex-col items-center px-4 py-6 rounded-lg hover:bg-blue-50/50 transition-all cursor-default">
+      <span class="text-5xl font-extralight text-blue-400 mb-3">01</span>
+      <div class="w-10 h-px bg-blue-300 mb-3"></div>
+      <span class="text-base font-medium text-gray-700 mb-1">业绩回顾</span>
+      <span class="text-sm text-gray-400">高效交付与多线并行</span>
     </div>
-    <div class="group flex flex-col items-center px-10 py-8 border border-gray-200 rounded-lg hover:border-gray-400 transition-all">
-      <span class="text-5xl font-bold text-gray-400 mb-3">02</span>
-      <span class="text-xl text-gray-700 font-bold">成长回顾</span>
+    <div class="group flex flex-col items-center px-4 py-6 rounded-lg hover:bg-green-50/50 transition-all cursor-default">
+      <span class="text-5xl font-extralight text-green-400 mb-3">02</span>
+      <div class="w-10 h-px bg-green-300 mb-3"></div>
+      <span class="text-base font-medium text-gray-700 mb-1">成长回顾</span>
+      <span class="text-sm text-gray-400">从执行者到推动者</span>
     </div>
-    <div class="group flex flex-col items-center px-10 py-8 border border-gray-200 rounded-lg hover:border-gray-400 transition-all">
-      <span class="text-5xl font-bold text-gray-400 mb-3">03</span>
-      <span class="text-xl text-gray-700 font-bold">感受与建议</span>
+    <div class="group flex flex-col items-center px-4 py-6 rounded-lg hover:bg-amber-50/50 transition-all cursor-default">
+      <span class="text-5xl font-extralight text-amber-400 mb-3">03</span>
+      <div class="w-10 h-px bg-amber-300 mb-3"></div>
+      <span class="text-base font-medium text-gray-700 mb-1">感受与建议</span>
+      <span class="text-sm text-gray-400">从个人到体系的优化</span>
     </div>
-    <div class="group flex flex-col items-center px-10 py-8 border border-gray-200 rounded-lg hover:border-gray-400 transition-all">
-      <span class="text-5xl font-bold text-gray-400 mb-3">04</span>
-      <span class="text-xl text-gray-700 font-bold">未来规划</span>
+    <div class="group flex flex-col items-center px-4 py-6 rounded-lg hover:bg-purple-50/50 transition-all cursor-default">
+      <span class="text-5xl font-extralight text-purple-400 mb-3">04</span>
+      <div class="w-10 h-px bg-purple-300 mb-3"></div>
+      <span class="text-base font-medium text-gray-700 mb-1">未来规划</span>
+      <span class="text-sm text-gray-400">AI驱动与模板化战略</span>
     </div>
   </div>
 </div>
@@ -55,8 +62,7 @@ layout: center
   <h2 class="text-5xl font-bold text-gray-800 mb-8">业绩回顾</h2>
 
   <div class="flex justify-center gap-8 text-sm">
-    <span class="text-gray-600">• 年度交付数据</span>
-    <span class="text-gray-600">• 技术基建沉淀</span>
+    <span class="text-gray-600">"一人多线"高效交付</span>
   </div>
 </div>
 
@@ -65,8 +71,8 @@ layout: center
 ---
 
 <div>
-  <h2 class="text-2xl font-light text-center mb-10">年度交付数据</h2>
-
+  <h2 class="text-2xl font-bold text-center mb-4">"一人多线"高效交付</h2>
+  <div class="text-center text-gray-400 text-sm mb-6">推动业务性能全面提升</div>
   <div class="flex justify-center items-end gap-16 mb-10">
     <div class="text-center">
       <div class="text-6xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">70<span class="text-2xl">+</span></div>
@@ -74,7 +80,7 @@ layout: center
     </div>
     <div class="text-center">
       <div class="text-6xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">65<span class="text-2xl">%</span></div>
-      <div class="text-xs text-gray-400 mt-2">High 优先级</div>
+      <div class="text-xs text-gray-400 mt-2">High 优先级占比</div>
     </div>
     <div class="text-center">
       <div class="text-6xl font-bold bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent">40<span class="text-2xl">%</span></div>
@@ -122,45 +128,6 @@ layout: center
   </div>
 </div>
 
----
-layout: center
----
-
-<div class="text-center">
-  <h2 class="text-2xl font-light mb-8">技术基建沉淀</h2>
-
-  <div class="grid grid-cols-2 gap-5 max-w-3xl mx-auto text-left">
-    <div class="p-5 border-l-4 border-l-green-500 border border-green-100 rounded-r-lg bg-green-50/30">
-      <div class="flex items-center justify-between mb-2">
-        <div class="text-xs text-green-600 bg-green-100 px-2 py-0.5 rounded">Vue3 + Nuxt3 标准模板</div>
-      </div>
-      <div class="text-gray-800 font-medium">新项目快速启动</div>
-      <div class="text-gray-500 text-xs mt-2">提炼业务共性，整合埋点/SEO/支付等通用能力，新项目开箱即用</div>
-    </div>
-    <div class="p-5 border-l-4 border-l-blue-500 border border-blue-100 rounded-r-lg bg-blue-50/30">
-      <div class="flex items-center justify-between mb-2">
-        <div class="text-xs text-blue-600 bg-blue-100 px-2 py-0.5 rounded">系统性性能优化方法论</div>
-      </div>
-      <div class="text-gray-800 font-medium">加载提速 40%</div>
-      <div class="text-gray-500 text-xs mt-2">资源加载顺序优化、代码压缩、图片懒加载、缓存策略等全链路提速</div>
-    </div>
-    <div class="p-5 border-l-4 border-l-purple-500 border border-purple-100 rounded-r-lg bg-purple-50/30">
-      <div class="flex items-center justify-between mb-2">
-        <div class="text-xs text-purple-600 bg-purple-100 px-2 py-0.5 rounded">跨越代码边界的排查能力</div>
-      </div>
-      <div class="text-gray-800 font-medium">问题定位效率提升</div>
-      <div class="text-gray-500 text-xs mt-2">推动补充运行日志，建立监控体系；流水线问题排查不止于代码层</div>
-    </div>
-    <div class="p-5 border-l-4 border-l-cyan-500 border border-cyan-100 rounded-r-lg bg-cyan-50/30">
-      <div class="flex items-center justify-between mb-2">
-        <div class="text-xs text-cyan-600 bg-cyan-100 px-2 py-0.5 rounded">AI 融入日常研发流程</div>
-      </div>
-      <div class="text-gray-800 font-medium">重复需求效率提升30%</div>
-      <div class="text-gray-500 text-xs mt-2">AI辅助Review减少缺陷、指令化处理重复需求、探索页面自动生成</div>
-    </div>
-  </div>
-</div>
-
 <!-- 
   Vue3+Nuxt3 标准模版：
     提炼业务共性，重新梳理并封装业务代码，整合出标准化的项目模板。为后续开发提供了统一规范，大幅降低了新项目的启动成本与维护难度 。
@@ -191,7 +158,7 @@ layout: center
   </div>
   <h2 class="text-5xl font-bold text-gray-800 mb-8">成长回顾</h2>
   <div class="flex justify-center gap-8 text-sm">
-    <span class="text-gray-600">技术沉淀与AI赋能</span>
+    <span class="text-gray-600">技术沉淀与能力成长</span>
   </div>
 </div>
 
@@ -201,68 +168,51 @@ layout: center
 layout: center
 ---
 
-<div class="text-center mb-6">
-  <h2 class="text-2xl font-light mb-10">技术沉淀与AI赋能</h2>
+<div class="text-center mb-12">
+  <h2 class="text-2xl font-light tracking-wide text-gray-700">技术沉淀与能力成长</h2>
 </div>
 
-<div class="grid grid-cols-3 gap-6 px-8">
-  <div class="p-3 border rounded-xl text-center border-purple-200">
-    <div class="text-xl mb-2">🔗</div>
-    <div class="font-semibold text-gray-800 text-sm mb-1">全链路技术</div>
-    <p class="text-xs text-gray-600">覆盖页面开发、埋点、SEO、支付流程及性能优化，具备全链路技术掌控力</p>
+<div class="grid grid-cols-2 gap-6 px-12">
+  <div class="p-5 border border-blue-200 rounded-lg">
+    <div class="flex items-baseline gap-4 mb-2">
+      <span class="text-3xl font-light text-blue-800">50+</span>
+      <span class="text-sm text-gray-400">站点 / 15天</span>
+    </div>
+    <div class="text-sm font-medium text-gray-700 mb-1">模板化交付能力</div>
+    <div class="text-xs text-gray-400 leading-relaxed">
+      Vue3+Nuxt3 标准模板，整合埋点/SEO/支付通用能力，支撑马甲快速批量部署
+    </div>
   </div>
-  <div class="p-3 border rounded-xl text-center border-blue-200">
-    <div class="text-xl mb-2">🤝</div>
-    <div class="font-semibold text-gray-800 text-sm mb-1">跨团队协同</div>
-    <p class="text-xs text-gray-600">与产品、后端、运营、设计多角色协作，完成复杂需求拆解与保持高效交付</p>
-  </div>
-  <div class="p-3 border rounded-xl text-center border-green-200">
-    <div class="text-xl mb-2">📊</div>
-    <div class="font-semibold text-gray-800 text-sm mb-1">多项目并行</div>
-    <p class="text-xs text-gray-600">同时支撑国学、FMP、Anonsms、Costext、反查、管理后台等 6+ 条业务线</p>
-  </div>
-</div>
 
-<div class="grid grid-cols-2 gap-6 px-8 mt-6">
-  <div class="p-4 border rounded-xl border-orange-200">
-    <div class="flex items-center gap-3 mb-3">
-      <div class="w-10 h-10 rounded-full text-orange-500 flex items-center justify-center text-lg">🧩</div>
-      <div class="font-semibold text-gray-800">复杂场景解决</div>
+  <div class="p-5 border border-green-200 rounded-lg">
+    <div class="flex items-baseline gap-4 mb-2">
+      <span class="text-3xl font-light text-green-600">40%</span>
+      <span class="text-sm text-gray-400">性能提升</span>
     </div>
-    <div class="space-y-2 text-xs text-gray-700">
-      <div class="flex items-start gap-2">
-        <span class="text-orange-500 font-bold">排查</span>
-        <span>流水线内存溢出 → 跨代码边界定位资源限制</span>
-      </div>
-      <div class="flex items-start gap-2">
-        <span class="text-orange-500 font-bold">推动</span>
-        <span>偶发500报错 → 补充日志建立监控体系</span>
-      </div>
-      <div class="flex items-start gap-2">
-        <span class="text-orange-500 font-bold">交付</span>
-        <span>马甲快速部署 → 标准化模板15天50+站点</span>
-      </div>
+    <div class="text-sm font-medium text-gray-700 mb-1">全链路性能优化</div>
+    <div class="text-xs text-gray-400 leading-relaxed">
+      资源加载优化、代码压缩、图片懒加载、缓存策略等系统性方法论，显著提升用户体验
     </div>
   </div>
- <div class="p-4 border rounded-xl border-cyan-200">
-    <div class="flex items-center gap-3 mb-3">
-      <div class="w-10 h-10 rounded-full text-cyan-500 flex items-center justify-center text-lg">🤖</div>
-      <div class="font-semibold text-gray-800">AI 赋能研发</div>
-      <div class="ml-auto px-2 py-0.5 bg-cyan-100 text-cyan-700 text-[10px] rounded-full font-medium">效率 ↑ 30%</div>
+
+  <div class="p-5 border border-red-200 rounded-lg">
+    <div class="flex items-baseline gap-4 mb-2">
+      <span class="text-3xl font-light text-red-800">体系化</span>
     </div>
-    <div class="space-y-2 text-xs text-gray-700">
-      <div class="flex items-start gap-2">
-        <span class="text-cyan-600 font-bold">效率</span>
-        <span>AI指令处理重复需求，<b class="text-cyan-700">单需求节省 2h+</b></span>
-      </div>
-      <div class="flex items-start gap-2">
-        <span class="text-cyan-600 font-bold">质量</span>
-        <span>AI辅助Review，<b class="text-cyan-700">提测缺陷率降低 30%</b></span>
-      </div>
-      <div class="flex items-start gap-2">
-        <span class="text-cyan-600 font-bold">探索</span>
-        <span>落地页自动生成，<b class="text-cyan-700">原型→页面 30min</b></span>
-      </div>
+    <div class="text-sm font-medium text-gray-700 mb-1">跨边界问题攻坚</div>
+    <div class="text-xs text-gray-400 leading-relaxed">
+      流水线内存溢出定位、500报错监控体系建设，问题排查不止于代码层
+    </div>
+  </div>
+
+  <div class="p-5 border border-gray-200 rounded-lg">
+    <div class="flex items-baseline gap-4 mb-2">
+      <span class="text-3xl font-light text-gray-800">30%</span>
+      <span class="text-sm text-gray-400">效率提升</span>
+    </div>
+    <div class="text-sm font-medium text-gray-700 mb-1">AI 深度赋能</div>
+    <div class="text-xs text-gray-400 leading-relaxed">
+      AI辅助Review缺陷率下降30%；原型生成页面效率提升30%，脱离重复而简单的工作
     </div>
   </div>
 </div>
@@ -286,8 +236,7 @@ layout: center
   </div>
   <h2 class="text-5xl font-bold text-gray-800 mb-8">感受与建议</h2>
   <div class="flex justify-center gap-8 text-sm">
-    <span class="text-gray-600">• 年度感受</span>
-    <span class="text-gray-600">• 改进建议</span>
+    <span class="text-gray-600">年度感受与建议</span>
   </div>
 </div>
 
@@ -297,73 +246,72 @@ layout: center
 layout: center
 ---
 
-<div class="text-center">
-  <h2 class="text-2xl font-light mb-10">年度感受</h2>
+<div class="text-center mb-6">
+  <h2 class="text-2xl font-light">年度感受与建议</h2>
+</div>
+<div class="px-8">
+  <div class="text-xs text-gray-400 mb-3">个人感受</div>
+  <div class="grid grid-cols-3 gap-4 mb-6">
+    <div class="p-4 rounded-lg text-left border border-green-200">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-sm font-semibold text-gray-700">收获</span>
+      </div>
+      <div class="space-y-1.5 text-xs text-gray-600">
+        <div>· 对自身技术的认可</div>
+        <div>· 极限交付的成就感</div>
+        <div>· 技术深度的突破</div>
+        <div>· AI 工具的红利</div>
+      </div>
+    </div>
+    <div class="p-4 rounded-lg text-left border border-orange-200">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-sm font-semibold text-gray-700">挑战</span>
+      </div>
+      <div class="space-y-1.5 text-xs text-gray-600">
+        <div>· 需求密度高 (High 65%+)</div>
+        <div>· 多业务线理解成本</div>
+        <div>· 技术债务累积</div>
+      </div>
+    </div>
+    <div class="p-4 rounded-lg text-left border border-purple-200">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-sm font-semibold text-gray-700">反思</span>
+      </div>
+      <div class="space-y-1.5 text-xs text-gray-600">
+        <div>· 技术决策可更果断</div>
+        <div>· 文档沉淀有待加强</div>
+        <div>· 需主动推进技术</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <div class="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
-    <div class="p-5 rounded-xl text-left border border-green-300">
-      <div class="flex items-center gap-2 mb-4">
-        <span class="text-xl">🎉</span>
-        <span class="text-lg font-semibold">收获</span>
+<div class="px-8">
+  <div class="text-xs text-gray-400 mb-3">改进建议</div>
+  <div class="grid grid-cols-4 gap-3">
+    <div class="p-3 border border-red-100 rounded-lg text-left">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-medium text-gray-700">公共组件库</span>
       </div>
-      <div class="space-y-2.5 text-sm text-gray-700">
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>对自身技术的认可</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>极限交付的成就感</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>技术深度的突破</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>AI 工具的红利</span>
-        </div>
-      </div>
+      <div class="text-xs text-gray-400">抽象组件，减少重复开发</div>
     </div>
-    <div class="p-5 rounded-xl text-left border border-orange-300">
-      <div class="flex items-center gap-2 mb-4">
-        <span class="text-xl">⚡</span>
-        <span class="text-lg font-semibold">挑战</span>
+    <div class="p-3 border border-red-100 rounded-lg text-left">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-medium text-gray-700">知识沉淀</span>
       </div>
-      <div class="space-y-2.5 text-sm text-gray-700">
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-orange-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>需求密度高 (High 65%+)</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-orange-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>多业务线理解成本</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-orange-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>技术债务累积</span>
-        </div>
-      </div>
+      <div class="text-xs text-gray-400">完善技术文档体系</div>
     </div>
-    <div class="p-5 rounded-xl text-left border border-blue-300">
-      <div class="flex items-center gap-2 mb-4">
-        <span class="text-xl">💭</span>
-        <span class="text-lg font-semibold">反思</span>
+    <div class="p-3 border border-red-100 rounded-lg text-left">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-medium text-gray-700">多语言SEO优化</span>
       </div>
-      <div class="space-y-2.5 text-sm text-gray-700">
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-blue-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>技术决策可更果断</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-blue-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>文档沉淀有待加强</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="w-1 h-1 bg-blue-400 rounded-full mt-2 flex-shrink-0"></span>
-          <span>需主动推进技术</span>
-        </div>
+      <div class="text-xs text-gray-400">物料和脚本完善</div>
+    </div>
+    <div class="p-3 border border-red-100 rounded-lg text-left">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-medium text-gray-700">多人Review</span>
       </div>
+      <div class="text-xs text-gray-400">更多人参与代码审查</div>
     </div>
   </div>
 </div>
@@ -380,45 +328,6 @@ layout: center
     2. **业务理解成本**：多业务线并行需要快速理解不同业务背景
     3. **技术债务累积**：快速交付与代码质量的平衡
 -->
-
----
-layout: center
----
-
-<div class="text-center">
-  <h2 class="text-2xl font-light mb-12">改进建议</h2>
-
-  <div class="grid grid-cols-2 gap-5 max-w-2xl mx-auto">
-    <div class="p-5 border border-green-200 rounded-xl text-left">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-lg">📦</span>
-        <span class="text-sm font-medium text-green-700">建立公共组件库</span>
-      </div>
-      <div class="text-xs text-gray-500 leading-relaxed">进一步抽象公共组件，减少重复开发</div>
-    </div>
-    <div class="p-5 border border-blue-200 rounded-xl text-left">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-lg">📚</span>
-        <span class="text-sm font-medium text-blue-700">知识沉淀</span>
-      </div>
-      <div class="text-xs text-gray-500 leading-relaxed">完善技术文档体系</div>
-    </div>
-    <div class="p-5 border border-purple-200 rounded-xl text-left">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-lg">🌍</span>
-        <span class="text-sm font-medium text-purple-700">多语言SEO文案优化</span>
-      </div>
-      <div class="text-xs text-gray-500 leading-relaxed">物料和脚本需要完善</div>
-    </div>
-    <div class="p-5 border border-orange-200 rounded-xl text-left">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-lg">🔍</span>
-        <span class="text-sm font-medium text-orange-700">多人Review</span>
-      </div>
-      <div class="text-xs text-gray-500 leading-relaxed">代码Review需要更多人参与</div>
-    </div>
-  </div>
-</div>
 
 <!-- 
   
@@ -455,26 +364,26 @@ layout: center
 ---
 
 <div class="text-center">
-  <h2 class="text-2xl font-light mb-6">重点方向</h2>
-  <div class="text-gray-400 text-sm mb-8">AI驱动 · 模板复用 · 效能倍增</div>
+  <h2 class="text-2xl font-light mb-6">工作规划与展望</h2>
+  <div class="text-gray-400 text-sm mb-8">重点方向：AI驱动 · 模板复用 · 效能倍增</div>
 
   <div class="grid grid-cols-4 gap-4 max-w-3xl mx-auto text-left">
-    <div class="p-5 border border-cyan-300 rounded-lg">
+    <div class="p-5 border border-cyan-200 rounded-lg">
       <div class="text-gray-800 font-medium text-sm mb-2">智能化开发</div>
       <div class="text-gray-500 text-xs leading-relaxed">AI 生成落地页<br/>低代码/零代码</div>
       <div class="mt-3 text-[10px] text-cyan-600 font-medium">目标：页面生成效率 ↑ 50%</div>
     </div>
-    <div class="p-5 border border-green-300 rounded-lg">
+    <div class="p-5 border border-green-200 rounded-lg">
       <div class="text-gray-800 font-medium text-sm mb-2">模板化交付</div>
       <div class="text-gray-500 text-xs leading-relaxed">模板库沉淀<br/>产能提升</div>
       <div class="mt-3 text-[10px] text-green-600 font-medium">目标：新项目启动 ≤ 2天</div>
     </div>
-    <div class="p-5 border border-purple-300 rounded-lg">
+    <div class="p-5 border border-purple-200 rounded-lg">
       <div class="text-gray-800 font-medium text-sm mb-2">技术影响力</div>
       <div class="text-gray-500 text-xs leading-relaxed">模板推广<br/>方法论输出</div>
       <div class="mt-3 text-[10px] text-purple-600 font-medium">目标：技术分享 ≥ 1次/季</div>
     </div>
-    <div class="p-5 border border-orange-300 rounded-lg">
+    <div class="p-5 border border-orange-200 rounded-lg">
       <div class="text-gray-800 font-medium text-sm mb-2">业务深度</div>
       <div class="text-gray-500 text-xs leading-relaxed">理解业务模式<br/>技术驱动建议</div>
       <div class="mt-3 text-[10px] text-orange-600 font-medium">目标：产出技术建议 ≥ 3条</div>
@@ -496,7 +405,7 @@ class: text-center
 
 <div class="font-light">
   <div class="text-5xl mb-6 text-gray-700">汇报结束  感谢聆听</div>
-  <div class="flex justify-center items-center gap-4 mb-6">
+  <div class="flex justify-center items-center gap-4 mb-5">
     <div class="w-36 h-px bg-gray-300"></div>
      <sb>&emsp;&emsp;&emsp;</sb>
     <div class="w-36 h-px bg-gray-300"></div>
