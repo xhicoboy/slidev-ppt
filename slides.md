@@ -250,7 +250,7 @@ layout: center
   <h2 class="text-2xl font-light">年度感受与建议</h2>
 </div>
 <div class="px-8">
-  <div class="text-xs text-gray-400 mb-3">个人感受</div>
+  <div class="text-sm text-gray-600 mb-3">个人感受</div>
   <div class="grid grid-cols-3 gap-4 mb-6">
     <div class="p-4 rounded-lg text-left border border-green-200">
       <div class="flex items-center gap-2 mb-3">
@@ -287,7 +287,7 @@ layout: center
 </div>
 
 <div class="px-8">
-  <div class="text-xs text-gray-400 mb-3">改进建议</div>
+  <div class="text-sm text-gray-600 mb-3">改进建议</div>
   <div class="grid grid-cols-4 gap-3">
     <div class="p-3 border border-red-100 rounded-lg text-left">
       <div class="flex items-center gap-2 mb-2">
